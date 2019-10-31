@@ -1,6 +1,6 @@
 {
   "name": "babel-react-rmodel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react版的双向数据绑定-- r-model",
   "main": "index.js",
   "directories": {
