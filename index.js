@@ -81,7 +81,6 @@ function objExpression2Str(expression) {
             case "Identifier":
                 objStr = expression.object.name;
                 break;
-            case "ThisExpression":
                 objStr = "this";
                 break;
         }
