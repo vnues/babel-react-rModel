@@ -7,7 +7,7 @@
 
 ## 如何使用
 
-```javascript
+```js
 
 class App extends React.Component {
   constructor(props) {
@@ -21,7 +21,6 @@ class App extends React.Component {
     const {inputVale} =this.state
     return (
       <div>
-          <h1>I'm {inputVale}</h1>
           <input  type="text" r-model={inputVale} />
       </div>
   )}
@@ -32,7 +31,7 @@ class App extends React.Component {
 
 ### 编译后
 
-```javascript
+```js
 
 class App extends React.Component {
   constructor(props) {
@@ -46,7 +45,7 @@ class App extends React.Component {
     const {
       inputVale
     } = this.state;
-    return React.createElement("div", null, React.createElement("h1", null, "I'm ", inputVale), React.createElement("input", {
+    return React.createElement("div", null, React.createElement("input", {
       type: "text",
       value: inputVale,
       onChange: e => {
@@ -81,7 +80,6 @@ class App extends React.Component {
     const {inputVale} =this.state
     return (
       <div>
-          <h1>I'm {inputVale}</h1>
           <input onChange={this.alert} type="text" r-model={inputVale} />
       </div>
   )}
@@ -110,7 +108,7 @@ class App extends React.Component {
     const {
       inputVale
     } = this.state;
-    return React.createElement("div", null, React.createElement("h1", null, "I'm ", inputVale), React.createElement("input", {
+    return React.createElement("div", null, React.createElement("input", {
       onChange: e => {
         this.setState({
           [`${this.state.inputVale}`]: e.target.value
