@@ -1,4 +1,4 @@
-# babel-react-model
+# babel-react-rmodel
 
 ## 背景
 

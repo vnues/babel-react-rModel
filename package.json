@@ -1,0 +1,25 @@
+{
+  "name": "babel-react-rmodel",
+  "version": "1.0.0",
+  "description": "react版的双向数据绑定-- r-model",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vnues/babel-react-rModel.git"
+  },
+  "keywords": [
+    "r-model"
+  ],
+  "author": "vnues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vnues/babel-react-rModel/issues"
+  },
+  "homepage": "https://github.com/vnues/babel-react-rModel#readme"
+}
